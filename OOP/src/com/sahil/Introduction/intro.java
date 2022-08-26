@@ -1,4 +1,4 @@
-package com.Sahil;
+package com.sahil.Introduction;
 
 public class intro {
     public static void main(String[] args) {
@@ -9,6 +9,12 @@ public class intro {
         System.out.println(sakura.name +"  "+ sakura.rno);
         Student random = new Student(Sahil);
         System.out.println(random.name);
+
+        Student one = new Student();
+        Student two =one;
+        one.name = "Billu";
+        System.out.println(two.name);
+
     }
     static class Student {
         String name;
