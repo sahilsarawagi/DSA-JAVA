@@ -1,5 +1,5 @@
 package com.sahil.StaticExample;
-// Reason behind, we use "Static" keyword with Main function (public static void Main)
+// Reason behind, we use "Static" keyword with SamePkg function (public static void SamePkg)
     // static is a class level variable, means it is not dependent on the instance or object.
     // Similarly, when a method is static it can be invoked without creating the instance of the class
     // suppose if the main function is not static, then we need an instance to run this main function

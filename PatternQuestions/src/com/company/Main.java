@@ -12,7 +12,7 @@ public class Main {
 //        pattern4(4);
 //        System.out.println();
 //        pattern30(5);
-        pattern31(3);
+        pattern28(3);
     }
 
     private static void pattern31(int i) {
